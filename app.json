@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/second/second",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/second/second"
   ]
 }
