@@ -1,0 +1,30 @@
+<view class="all-page">
+  <image class="image" src="../images/4.png" mode="scaleToFill"></image>
+
+  <view class="welcome">
+    <text>欢迎语  ......</text>
+  </view>
+
+  <view class="label">
+    <view class="form-row-label">账号  : </view>
+    <view class="form-row-content">
+      <input class="input" type="text" placeholder="账号输入框" />
+    </view>        
+  </view>
+
+  <view class="label">
+    <view class="form-row-label">密码  : </view>
+    <view class="form-row-content">
+      <input class="input" password type="text" placeholder="密码输入框" />
+    </view>        
+  </view>
+
+  <view class="forth-box">
+    <button class="register" size="default" type="primary">注册账号</button>
+    <button class="forget" size="default" type="primary">遗忘密码</button>
+    </view>
+  </view>
+
+  <button class="login-button">登录</button>
+  
+</view>

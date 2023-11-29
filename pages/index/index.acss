@@ -1,0 +1,53 @@
+.all-page {
+  display: flex;
+  flex-direction: column;
+  width: 702rpx;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+
+.top-box {
+  margin-top: 24rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-item {
+  padding: 10rpx;
+  border: 2rpx solid rgb(5, 7, 1); 
+}
+
+.second-box {
+  margin-top: 24rpx;
+  box-sizing: border-box;
+  padding: 16rpx;
+  display: flex;
+  border: 2px solid orange;
+}
+
+.circle-button {
+  margin-left: 36rpx;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px; 
+}
+
+.third-box {
+  margin-top: 24rpx;
+  margin-bottom: 12rpx;
+  box-sizing: border-box;
+  padding: 10rpx;
+  height: 300rpx;
+  border: 2rpx solid orangered; 
+}
+
+.forth-box { 
+  height: 150rpx;
+  margin-top: 24rpx;
+  box-sizing: border-box;
+  padding: 16rpx;
+  border: 2rpx solid green; 
+}

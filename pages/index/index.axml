@@ -1,0 +1,29 @@
+<!-- axml -->
+<view class="all-page">
+
+  <view class="top-box">
+    <view class="task-item">
+      <text>{{taskDescription}}</text>
+    </view>
+    <view class="task-item">
+      <text>{{deadline}}</text>
+    </view>
+  </view>
+
+  <view class="second-box">
+    <button class="circle-button">1</button>
+    <button class="circle-button">2</button>
+    <button class="circle-button">3</button>
+    <button class="circle-button">4</button>
+  </view>
+
+  <view class="third-box">
+    <text>题目</text>
+  </view>
+
+  <view class="forth-box">A  ........</view>
+  <view class="forth-box">B  ........</view>
+  <view class="forth-box">C  ........</view>
+  <view class="forth-box">D  ........</view>
+
+</view>
