@@ -23,7 +23,7 @@
   box-sizing: border-box;
   padding: 16rpx;
   display: flex;
-  border: 2px solid rgb(140, 50, 224);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .circle-button {
