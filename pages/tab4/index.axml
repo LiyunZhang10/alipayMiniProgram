@@ -1,0 +1,42 @@
+<view class="top">
+  <view class="name">晴天</view>
+  <image id="sculpture" src="/pages/images/头像.png" />
+</view>
+
+<view class="tool">
+  <view class="row">
+    <view class="toolico">
+      <image src="/pages/images/love.png"/>
+      <view class="toolicobg"></view>
+    </view>
+    <view class="toolname">收藏</view>
+    <view class="line"></view>
+  </view>
+
+  <view class="row">
+    <view class="toolico">
+      <image src="/pages/images/反馈.png"/>
+      <view class="toolicobg"></view>
+    </view>
+    <view class="toolname">反馈</view>
+    <view class="line"></view>
+  </view>
+
+  <view class="row">
+    <view class="toolico">
+      <image src="/pages/images/举报.png"/>
+      <view class="toolicobg"></view>
+    </view>
+    <view class="toolname">举报</view>
+    <view class="line"></view>
+  </view>
+
+  <view class="row">
+    <view class="toolico">
+      <image src="/pages/images/浏览历史.png"/>
+      <view class="toolicobg"></view>
+    </view>
+    <view class="toolname">浏览历史</view>
+    <view class="line"></view>
+  </view>
+</view>

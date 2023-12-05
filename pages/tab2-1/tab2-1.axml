@@ -1,0 +1,20 @@
+<view class="card-item">
+  <view class="poster">
+    <view class="pic">
+      <image mode="scaleToFill" src="" />
+    </view>
+    <view class="info">
+      <view class="name">
+        name
+      </view>
+      <view class="time">
+        time
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <text>
+      dsasadasd位
+    </text>
+  </view>
+</view>

@@ -1,6 +1,56 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/second/second"
-  ]
+    "pages/tab1/index",
+    "pages/tab2/index",
+    "pages/tab4/index",
+    "pages/tab3/index",
+    "pages/tab2-1/tab2-1",
+    "pages/loadin/loadin"
+  ],
+  "window": {
+    "defaultTitle": "My App",
+    "backgroundColor": "#DCDCDC"
+  },
+  "tabBar": {
+    "textColor": "#A9A9A9",
+    "selectedColor": "#1677ff",
+    "backgroundColor": "",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "/pages/images/home0.png",
+        "activeIcon": "/pages/images/home1.png"
+      },
+      {
+        "pagePath": "pages/tab1/index",
+        "name": "测试",
+        "icon": "/pages/images/test.png",
+        "activeIcon": "/pages/images/test1.png"
+      },
+      {
+        "pagePath": "pages/tab2/index",
+        "name": "帖子",
+        "icon": "/pages/images/回复的帖子.png",
+        "activeIcon": "/pages/images/回复的帖子1.png"
+      },
+      {
+        "pagePath": "pages/tab3/index",
+        "name": "消息",
+        "icon": "/pages/images/消息.png",
+        "activeIcon": "/pages/images/消息1.png"
+      },
+      {
+        "pagePath": "pages/tab4/index",
+        "name": "我的",
+        "icon": "/pages/images/我的.png",
+        "activeIcon": "/pages/images/我的1.png"
+      }
+    ]
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page",
+    "requestReferrerStyle": "full"
+  }
 }

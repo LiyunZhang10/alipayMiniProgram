@@ -1,0 +1,10 @@
+{
+  "modes": [
+    {
+      "title": "pages/tab3/index",
+      "page": "pages/tab2-1/tab2-1",
+      "launchMode": "common",
+      "pageQuery": ""
+    }
+  ]
+}

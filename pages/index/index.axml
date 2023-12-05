@@ -1,29 +1,21 @@
-<!-- axml -->
-<view class="all-page">
-
-  <view class="top-box">
-    <view class="task-item">
-      <text>{{taskDescription}}</text>
-    </view>
-    <view class="task-item">
-      <text>{{deadline}}</text>
-    </view>
-  </view>
-
-  <view class="second-box">
-    <button class="circle-button">1</button>
-    <button class="circle-button">2</button>
-    <button class="circle-button">3</button>
-    <button class="circle-button">4</button>
-  </view>
-
-  <view class="third-box">
-    <text>题目</text>
-  </view>
-
-  <view class="forth-box">A  ........</view>
-  <view class="forth-box">B  ........</view>
-  <view class="forth-box">C  ........</view>
-  <view class="forth-box">D  ........</view>
-
-</view>
+<view class="top">
+  <view class="searchbar"> 
+   <input class="search" />
+   <image src="{{src12}}" />
+   <text>搜索</text>
+ </view>
+ </view>
+ <swiper class="banner" autoplay="{{true}}" interval="{{2000}}" indicator-dots="{{true}}">
+   <swiper-item>
+     <view class="uni-bg-red">轮播图A</view>
+   </swiper-item>
+   <swiper-item>
+           <view class="uni-bg-green">轮播图B</view>
+   </swiper-item>
+   <swiper-item>
+               <view class="uni-bg-blue">轮播图C</view>
+   </swiper-item>
+ </swiper>
+ <view class="middle">
+   主要内容
+ </view>

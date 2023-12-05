@@ -1,0 +1,173 @@
+<view class="search">
+  <image mode="aspectFill" src="/pages/images/search.png" />
+  <input placeholder="搜索帖子、问答" />
+  <button size="default" type="primary">搜索</button>
+</view>
+<view class="mind-nav">
+  <view a:for="{{ optionList }}" class="mind-nav-item" a:key="id">
+    <navigator url="{{item.url}}" class="option">
+      <image mode="scaleToFill" src="{{item.imgSrc}}" />
+      <text>
+        {{item.text}}
+      </text>
+    </navigator>
+  </view>
+</view>
+
+<view class="card-item">
+  <view class="poster">
+    <view class="pic">
+      <image mode="scaleToFill" src="" />
+    </view>
+    <view class="info">
+      <view class="name">
+        name
+      </view>
+      <view class="time">
+        time
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <text>
+      dsasadasd
+    </text>
+  </view>
+  <view class="function">
+    <view class="share">
+      <view>
+        <image src="/pages/images/Share.png" />
+      </view>
+      <view>
+        分享
+      </view>
+    </view>
+    <view class="comment">
+      <view>
+        <image src="/pages/images/comment.png" />
+      </view>
+      <view>
+        评论
+      </view>
+    </view>
+    <view class="like">
+      <view>
+        <image src="/pages/images/like.png" />
+      </view>
+      <view>
+        点赞
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="card-item">
+  <view class="poster">
+    <view class="pic">
+      <image mode="scaleToFill" src="" />
+    </view>
+    <view class="info">
+      <view class="name">
+        name
+      </view>
+      <view class="time">
+        time
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <text>
+      这里是内容
+    </text>
+  </view>
+  <view class="function">
+    <view class="share">
+      <view>
+        <image src="/pages/images/Share.png" />
+      </view>
+      <view>
+        分享
+      </view>
+    </view>
+    <view class="comment">
+      <view>
+        <image src="/pages/images/comment.png" />
+      </view>
+      <view>
+        评论
+      </view>
+    </view>
+    <view class="like">
+      <view>
+        <image src="/pages/images/like.png" />
+      </view>
+      <view>
+        点赞
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="card-item">
+  <view class="poster">
+    <view class="pic">
+      <image mode="scaleToFill" src="" />
+    </view>
+    <view class="info">
+      <view class="name">
+        name
+      </view>
+      <view class="time">
+        time
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <text>
+      dsasadasd
+    </text>
+  </view>
+  <view class="function">
+    <view class="share">
+      <view>
+        <image src="/pages/images/Share.png" />
+      </view>
+      <view>
+        分享
+      </view>
+    </view>
+    <view class="comment">
+      <view>
+        <image src="/pages/images/comment.png" />
+      </view>
+      <view>
+        评论
+      </view>
+    </view>
+    <view class="like">
+      <view>
+        <image src="/pages/images/like.png" />
+      </view>
+      <view>
+        点赞
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="card-item">
+
+</view>
+<view class="card-item">
+
+</view>
+<view class="card-item">
+
+</view>
+<view class="card-item">
+
+</view>
+<view class="card-item">
+
+</view>

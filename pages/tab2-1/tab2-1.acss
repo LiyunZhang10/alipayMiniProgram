@@ -1,0 +1,60 @@
+.card-item {
+  width: 90%;
+  height: 1200rpx;
+  margin: 0 auto;
+  /* margin-top: 20rpx; */
+  border-radius: 10rpx;
+  border: 2rpx solid white;
+  border-bottom: 2rpx solid #aaa;
+  /* box-shadow: 0 4rpx 4rpx 0 #aaa; */
+  /* flex-direction: column; */
+}
+
+.poster {
+  /* margin: 20rpx; */
+  /* background-color: aqua; */
+  display: flex;
+  width: 60%;
+  height: 11%;
+  margin-top: 80rpx;
+}
+
+.pic {
+  border-radius: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic image {
+  width: 54%;
+  height: 90%;
+  background-color: indigo;
+  border-radius: 18rpx;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.poster view {
+  flex: 1;
+  /* border: 1rpx solid hotpink; */
+}
+
+.content {
+  margin: 40rpx;
+  height: 70%;
+  border: 3rpx solid #1677ff;
+  border-radius: 40rpx;
+  padding: 20rpx;
+  box-shadow: 0 0 4rpx 4rpx navy;
+  font-size: 30rpx;
+  /* font-family: 'Microsoft Yahei'; */
+  /* font-family: cursive; */
+  font-family: sans-serif;
+}

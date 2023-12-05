@@ -1,0 +1,106 @@
+
+*{
+  margin:0;
+}
+.main{
+  width:100vw;
+  height:100vh;
+  background-color:#aaa;
+  position:relative;
+}
+.top
+{
+  border-radius: 20px;
+  left:5vw;
+  top:5vh;
+  background-color: #fff;
+  display:flex;
+  position:relative;
+  width:90vw;
+  height:20vh;
+}
+.name{
+  font-size:6vw;
+  position:relative;
+  top:5vh;
+  left:30vw;
+}
+.chose{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position:relative;
+  background-color:#fff;
+  width:90vw;
+  height:8vh;
+  left:5vw;
+  top:8vh;
+  border-radius:20px;
+}
+.fun{
+  font-size:2.2vh;
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  position:relative;
+  display:flex;
+}
+.fun>image{
+  top:4vh;
+  position:absolute;
+  width:3vh;
+  height:3vh;
+  object-fit:cover;
+}
+#sculpture{
+  position:absolute;
+  top:2vh;
+  left:3vw;
+  width:20vw;
+  height:20vw;
+  border-radius:20vw;
+}
+.tool{
+  position:relative;
+  background-color: #fff;
+  width:90vw;
+  height:40vh;
+  top:20vh;
+  left:5vw;
+  border-radius:20px;
+}
+.row{
+  font-size:2.5vh;
+  align-items:center;
+  height:10vh;
+  display:flex;
+  position:relative;
+}
+.toolico{
+  width:15vw;
+  height:10vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.toolico>image{
+  z-index:100;
+  color:#aaa;
+  position:absolute;
+  width:6vh;
+  height:6vh;
+}
+.toolname{
+  left:15vw;
+  position:absolute;
+}
+.line{
+  top:10vh;
+  position:absolute;
+  width:75vw;
+  height:0.1px;
+  left:15vw;
+  background-color:black;
+}
+.row:nth-last-of-type(1)>.line{
+  background-color: #fff;
+}

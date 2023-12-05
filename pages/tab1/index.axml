@@ -1,0 +1,28 @@
+<view class="top">
+  <text>分类一</text>
+  <text>分类二</text>
+  <text>分类三</text>
+  <text>其他</text>
+</view>
+<view class="middle">
+  <view class="content">
+    <text class="title">标题</text>
+    <label>tag</label>
+    <text class="des">描述:</text>
+  </view>
+  <view class="content">
+    <text class="title">标题</text>
+    <label>tag</label>
+    <text class="des">描述:</text>
+  </view>
+  <view class="content">
+    <text class="title">标题</text>
+    <label>tag</label>
+    <text class="des">描述:</text>
+  </view>
+  <view class="content">
+    <text class="title">标题</text>
+    <label>tag</label>
+    <text class="des">描述:</text>
+  </view>
+</view>

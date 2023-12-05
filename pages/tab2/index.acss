@@ -1,0 +1,142 @@
+.search {
+  font-family: "Microsoft YaHei";
+  margin: 0 auto;
+  width: 650rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: powderblue;
+}
+
+.search image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.search input {
+  border-radius: 15rpx;
+  height: 60rpx;
+  width: 60%;
+}
+
+.search button {
+  height: 100%;
+  width: 80rpx;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+
+.mind-nav {
+  display: flex;
+  height: 150rpx;
+  width: 95%;
+  margin: 20rpx auto;
+  background-color: white;
+  border-radius: 10rpx;
+  font-weight: 600;
+}
+
+.mind-nav-item {
+  flex: 1;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rpx;
+  font-size: 28rpx;
+}
+
+.option image {
+  height: 75rpx;
+  width: 75rpx;
+  margin-bottom: 12rpx;
+}
+
+.card-item {
+  display: flex;
+  width: 90%;
+  height: 300rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid;
+  box-shadow: 0 4rpx 4rpx 0 #aaa;
+  flex-direction: column;
+}
+
+.poster {
+  /* margin: 20rpx; */
+  flex: 1;
+  /* background-color: aqua; */
+  display: flex;
+  width: 40%;
+}
+
+.pic {
+  border-radius: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic image {
+  width: 54%;
+  height: 90%;
+  background-color: indigo;
+  border-radius: 18rpx;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.poster view {
+  flex: 1;
+  /* border: 1rpx solid hotpink; */
+}
+
+.content {
+  flex: 2;
+  margin: 20rpx;
+  overflow: hidden;
+  border: 1rpx solid #aaa;
+  /* border-bottom: 1rpx solid #aaa; */
+}
+
+.function {
+  flex: 1;
+  /* background-color: rgb(151, 225, 151); */
+  display: flex;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}
+
+.function view {
+  flex: 1;
+  display: flex;
+}
+
+.function view view {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+
+.function view view image {
+  width: 50%;
+  height: 60%;
+}
