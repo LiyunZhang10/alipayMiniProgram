@@ -1,4 +1,4 @@
-# alipayMiniProject
+# alipayMiniProgram
  
 👋Introducing our team of 9 enthusiastic developers from the University of Electronic Science and Technology of China! We are thrilled to present our latest project - an Alipay mini-program focused on promoting mental well-being. 😊🌟
 
