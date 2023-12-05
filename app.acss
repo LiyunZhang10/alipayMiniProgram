@@ -1,9 +1,3 @@
-
 page {
-<<<<<<< Updated upstream
-  background: #ffffff;
-}
-=======
   background: #f7f7f7;
 }
->>>>>>> Stashed changes

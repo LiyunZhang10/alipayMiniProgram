@@ -1,6 +1,6 @@
 # alipayLittleProgram
  
-Introducing our team of 9 enthusiastic developers from the University of Electronic Science and Technology of China! We are thrilled to present our latest project - an Alipay mini-program focused on promoting mental well-being. 😊🌟
+👋Introducing our team of 9 enthusiastic developers from the University of Electronic Science and Technology of China! We are thrilled to present our latest project - an Alipay mini-program focused on promoting mental well-being. 😊🌟
 
 🌈 Welcome to "Mindspace" - a vibrant community dedicated to fostering mental health. Our mini-program combines the power of a forum and a wealth of insightful resources to support individuals on their mental wellness journey. 💬💪
 
